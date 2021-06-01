@@ -79,3 +79,8 @@ button:hover {
     font-size: 30px;
     color: green;
 }
+
+h1,
+#p {
+    color: green;
+}
