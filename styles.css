@@ -14,7 +14,9 @@ body {
 
 img {
     margin: 22px 10px 10px 0px;
-    float: left;
+    float: top;
+    width: px;
+    height: 400px;
 }
 
 ul.nav {
@@ -23,4 +25,31 @@ ul.nav {
     padding: 0;
     overflow: hidden;
     /* text-decoration: none; */
+    display: flex;
+}
+
+ul.nav a:link,
+ul.nav a:visited {
+    display: block;
+    width: 330px;
+    color: white;
+    background-color: rgb(21, 22, 21);
+    padding: 3px;
+    text-decoration: none;
+}
+
+
+/* ul.nav a:hover {
+    background-color: black;
+    color: rgb(233, 7, 7); */
+
+
+/* } */
+
+ul.nav a:hover {
+    background-color: grey;
+}
+
+ul.nav a:active {
+    background-color: black;
 }
